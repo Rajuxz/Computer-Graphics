@@ -7,10 +7,14 @@ void main(){
   clrscr();
   initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
   circle(250,250,100);
-  circle(255,255,100);
-  circle(260,260,100);
-  circle(265,265,100);
-  circle(270,270,100);
+  
+  //Draw triangle
+  line(300,100,200,200);
+  line(300,100,400,200);
+  line(200,200,400,200);
+  
+  //draw ellipse.
+  ellipse(150,120,0,360,70,50);
   getch();
   closegraph();
 
